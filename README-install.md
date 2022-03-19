@@ -47,6 +47,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Comando posteriores:
 
-yarn add react-router-dom@6
+yarn add react-router-dom@6 (Router Dom)
 
+yarn add @mui/material @emotion/react @emotion/styled  (MaterialUI)
 
+yarn add @mui/icons-material
