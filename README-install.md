@@ -52,3 +52,5 @@ yarn add react-router-dom@6 (Router Dom)
 yarn add @mui/material @emotion/react @emotion/styled  (MaterialUI)
 
 yarn add @mui/icons-material
+
+npx eslint --init

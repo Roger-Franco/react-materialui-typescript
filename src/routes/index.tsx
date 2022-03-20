@@ -1,5 +1,5 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
-import { Button } from '@mui/material'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { Button } from '@mui/material';
 import { useAppThemeContext } from '../shared/contexts';
 
 // Mudanças na v6:
@@ -7,7 +7,7 @@ import { useAppThemeContext } from '../shared/contexts';
 // Routes está no lugar de Switch
 
 export const AppRoutes = () => {
-  const { toggleTheme } = useAppThemeContext()
+  const { toggleTheme } = useAppThemeContext();
 
   return (
     <Routes>
@@ -16,5 +16,5 @@ export const AppRoutes = () => {
         onClick={toggleTheme}>toggle Theme</Button>} />
       <Route path="*" element={<Navigate to="/pagina-inicial" />} />
     </Routes>
-  )
+  );
 };
