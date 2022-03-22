@@ -16,11 +16,6 @@ export const AppRoutes = () => {
         icon: 'home',
         path: '/pagina-inicial',
         label: 'Página Inicial',
-      },
-      {
-        icon: 'star',
-        path: '/cidades',
-        label: 'Cidades',
       }
     ]);
   }, []);
@@ -28,7 +23,6 @@ export const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/pagina-inicial" element={<Dashboard />} />
-      <Route path="/cidades" element={<Dashboard />} />
       <Route path="*" element={<Navigate to="/pagina-inicial" />} />
     </Routes>
   );
