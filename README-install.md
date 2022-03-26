@@ -54,3 +54,7 @@ yarn add @mui/material @emotion/react @emotion/styled  (MaterialUI)
 yarn add @mui/icons-material
 
 npx eslint --init
+
+yarn add -D json-server (Mock do servidor)
+
+json-server -w -p 3333 ./mock/database.json  (talvez tenha que colocar "yarn run" antes)
