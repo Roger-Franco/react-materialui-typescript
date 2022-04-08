@@ -60,3 +60,10 @@ yarn add -D json-server (Mock do servidor)
 json-server -w -p 3333 ./mock/database.json  (talvez tenha que colocar "yarn run" antes)
 
 yarn add axios 
+
+# Estou no minuto 11:00
+https://www.youtube.com/watch?v=ECQ4QWObNAE&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=26
+
+ler depois :
+https://www.terra.com.br/noticias/mundo/guerra-na-ucrania-o-que-numero-de-militares-russos-mortos-nos-diz-sobre-invasao,00532db73e151226e3a69e8e56c46f899x9z93rl.html
+
