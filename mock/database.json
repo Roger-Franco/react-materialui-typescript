@@ -1,12 +1,6 @@
 {
   "pessoas": [
     {
-      "id": 1,
-      "email": "roger@gmail.com",
-      "cidadeId": "1",
-      "nomeCompleto": "Roger Franco"
-    },
-    {
       "id": 2,
       "email": "roger@gmail.com",
       "cidadeId": "1",
@@ -17,18 +11,6 @@
       "email": "roger@gmail.com",
       "cidadeId": "1",
       "nomeCompleto": "Arthur Franco"
-    },
-    {
-      "id": 4,
-      "email": "roger@gmail.com",
-      "cidadeId": "1",
-      "nomeCompleto": "Thuthu Franco"
-    },
-    {
-      "id": 5,
-      "email": "roger@gmail.com",
-      "cidadeId": "1",
-      "nomeCompleto": "Xuxu Franco"
     },
     {
       "id": 6,
@@ -53,12 +35,6 @@
       "email": "roger@gmail.com",
       "cidadeId": "1",
       "nomeCompleto": "Thuthu Franco"
-    },
-    {
-      "id": 10,
-      "email": "roger@gmail.com",
-      "cidadeId": "1",
-      "nomeCompleto": "Xuxu Franco"
     },
     {
       "id": 11,
