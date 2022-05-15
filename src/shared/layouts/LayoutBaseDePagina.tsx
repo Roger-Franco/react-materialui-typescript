@@ -8,7 +8,7 @@ interface ILayoutBaseDePaginaprops {
   barraDeFerramentas?: ReactNode
 }
 
-export const LayoutBasedePagina: React.FC<ILayoutBaseDePaginaprops> = ({ children, titulo, barraDeFerramentas }) => {
+export const LayoutBaseDePagina: React.FC<ILayoutBaseDePaginaprops> = ({ children, titulo, barraDeFerramentas }) => {
   // const smDown = useMediaQuery(theme.breakpoints.down('sm')); # Alternativa seria descer essa linha
   const smDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
   const mdDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('md'));

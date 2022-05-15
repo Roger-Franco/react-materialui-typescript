@@ -4,7 +4,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { FerramentasDaListagem } from '../../shared/components';
 import { Environment } from '../../shared/environment';
 import { useDebounce } from '../../shared/hooks';
-import { LayoutBasedePagina } from '../../shared/layouts';
+import { LayoutBaseDePagina } from '../../shared/layouts';
 import { IListagemPessoa, PessoasService } from '../../shared/services/api/pessoas/PessoasService';
 
 
@@ -63,7 +63,7 @@ export const ListagemDePessoas: React.FC = () => {
   };
 
   return (
-    <LayoutBasedePagina
+    <LayoutBaseDePagina
       titulo='Listagem de pessoas'
       barraDeFerramentas={
         <FerramentasDaListagem
@@ -132,6 +132,6 @@ export const ListagemDePessoas: React.FC = () => {
         </Table>
       </TableContainer>
 
-    </LayoutBasedePagina >
+    </LayoutBaseDePagina >
   );
 };
