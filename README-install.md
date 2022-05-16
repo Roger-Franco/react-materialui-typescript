@@ -61,4 +61,4 @@ json-server -w -p 3333 ./mock/database.json  (talvez tenha que colocar "yarn run
 
 yarn add axios 
 
-https://www.youtube.com/watch?v=gxh5pMUcU-c&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=33
+https://www.youtube.com/watch?v=L3h59HO1D_Q&list=PL29TaWXah3iaqOejItvW--TaFr9NcruyQ&index=34
