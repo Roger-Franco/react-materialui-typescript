@@ -1,3 +1,4 @@
+import { Scope } from '@unform/core';
 import { Form } from '@unform/web';
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -66,9 +67,22 @@ export const DetalheDePessoas: React.FC = () => {
     >
 
       <Form onSubmit={(dados) => console.log(dados)}>
-        <VTextField
-          name='nomeCompleto'
-        />
+        <VTextField name='email' />
+        <VTextField name='nomeCompleto' />
+        <VTextField name='cidadeId' />
+
+
+        {[1, 2, 3, 4].map((_, index) => (
+          <Scope key='' path={`endereço[${index}]`}>
+            <VTextField name='rua' />
+            <VTextField name='numero' />
+            <VTextField name='estado' />
+            <VTextField name='cidade' />
+            <VTextField name='pais' />
+          </Scope>
+        ))}
+
+
         <button type="submit">Submit</button>
       </Form>
 
