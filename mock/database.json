@@ -59,36 +59,12 @@
       "email": "roger@gmail.com",
       "cidadeId": "1",
       "nomeCompleto": "Xuxu Franco"
-    },
+    }
+  ],
+  "cidades": [
     {
-      "nomeCompleto": "Zoe",
-      "email": "zoya@gmail.com",
-      "cidadeId": "3",
-      "id": 16
-    },
-    {
-      "nomeCompleto": "Zoy Koleda",
-      "email": "zoy@gmail.com",
-      "cidadeId": "3",
-      "id": 17
-    },
-    {
-      "id": 19,
-      "nomeCompleto": "Zoe",
-      "email": "zoe@gmail.com",
-      "cidadeId": "3"
-    },
-    {
-      "nomeCompleto": "rog",
-      "email": "rog",
-      "cidadeId": "2",
-      "id": 20
-    },
-    {
-      "id": 21,
-      "nomeCompleto": "rog",
-      "email": "rog@gmail.com",
-      "cidadeId": "3"
+      "id": 1,
+      "nome": "Porto Alegre"
     }
   ]
 }
